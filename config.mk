@@ -4,7 +4,7 @@ VERSION = 0.8.4
 # Customize below to fit your system
 
 # paths
-PREFIX = /home/grzesiek/.local/st
+PREFIX = /usr/local/google/home/grzegorzmilka/.local/st
 MANPREFIX = $(PREFIX)/share/man
 
 X11INC = /usr/X11R6/include
