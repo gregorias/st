@@ -1,11 +1,13 @@
 /* See LICENSE file for copyright and license details. */
 
 /*
- * appearance
+ * Appearance
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
+ *
+ * Use a font with powerline/airline plugins symbols
  */
-char font[] = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+char font[] = "DejaVu Sans Mono for Powerline:pixelsize=16:antialias=true:autohint=true";
 int borderpx = 2;
 
 /*
@@ -16,7 +18,7 @@ int borderpx = 2;
  * 4: value of shell in /etc/passwd
  * 5: value of shell in config.h
  */
-static char shell[] = "/bin/sh";
+static char shell[] = "/bin/bash";
 static char *utmp = NULL;
 static char stty_args[] = "stty raw pass8 nl -echo -iexten -cstopb 38400";
 
@@ -463,4 +465,3 @@ char ascii_printable[] =
 	" !\"#$%&'()*+,-./0123456789:;<=>?"
 	"@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_"
 	"`abcdefghijklmnopqrstuvwxyz{|}~";
-

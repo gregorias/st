@@ -2,6 +2,10 @@ st - simple terminal
 --------------------
 st is a simple terminal emulator for X which sucks less.
 
+This repo contains personal changes that
+
+* use bash and powerline fonts on default
+* Use the CLIPBOARD buffer for copy and paste instead of PRIMARY
 
 Requirements
 ------------

@@ -405,7 +405,8 @@ selnotify(XEvent *e)
 void
 xselpaste(void)
 {
-	XConvertSelection(xw.dpy, XA_PRIMARY, xsel.xtarget, XA_PRIMARY,
+	Atom clipboard = XInternAtom(xw.dpy, "CLIPBOARD", 0);
+	XConvertSelection(xw.dpy, clipboard, xsel.xtarget, clipboard,
 			xw.win, CurrentTime);
 }
 
