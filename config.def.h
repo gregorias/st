@@ -7,7 +7,7 @@
  *
  * Use a font with powerline/airline plugins symbols
  */
-static char *font = "DejaVu Sans Mono for Powerline:pixelsize=16:antialias=true:autohint=true";
+static char *font = "DejaVu Sans Mono for Powerline:pixelsize=32:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
