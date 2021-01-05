@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /*
- * Appearance
+ * appearance
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  *
