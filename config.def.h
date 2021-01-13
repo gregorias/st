@@ -18,7 +18,7 @@ static int borderpx = 2;
  * 4: value of shell in /etc/passwd
  * 5: value of shell in config.h
  */
-static char *shell = "/bin/sh";
+static char *shell = "/bin/fish";
 char *utmp = NULL;
 /* scroll program: to enable use a string like "scroll" */
 char *scroll = NULL;
@@ -95,6 +95,9 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 8;
 
+/* bg opacity */
+float alpha = 0.99;
+
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 
@@ -117,6 +120,12 @@ static const char *colorname[] = {
   [13] = "#d3869b", /* magenta */
   [14] = "#8ec07c", /* cyan    */
   [15] = "#ebdbb2", /* white   */
+ 	[255] = 0,
+
+ 	/* more colors can be added after 255 to use with DefaultXX */
+ 	"#cccccc",
+ 	"#555555",
+ 	"black",
 };
 
 /*
